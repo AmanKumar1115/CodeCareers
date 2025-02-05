@@ -17,7 +17,7 @@ export const clerkWebhooks = async (req, res) => {
         const payload = req.body;
         const headers = req.headers;
 
-        verify(payload, headers);
+        whook.verify(payload, headers);
 
         // getting data from request body
         const { data, type } = req.body
