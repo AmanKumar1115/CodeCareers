@@ -1,5 +1,5 @@
 import { Webhook } from "svix";
-import User from "../models/User.js";
+import User from "../models/User.model.js";
 
 // Middleware to validate webhook request
 const validateWebhookRequest = (req) => {
